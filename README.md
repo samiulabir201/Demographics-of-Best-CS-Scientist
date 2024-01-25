@@ -1,7 +1,7 @@
  # Demographics-of-Best-CS-Scientist
 
 ## Problem Statement
-The goal of this project is to gather information on the best 1000 computer science researchers from [this website](https://research.com/scientists-rankings/computer-science)
+The goal of this project is to gather information on the best 1000 computer science researchers from [this website](https://research.com/scientists-rankings/computer-science) </br>
 Later we used the scraper data to understand the following demographics and correlations using Tableau Dashboard:
 
 1. A bar chart of countries with average publications.
