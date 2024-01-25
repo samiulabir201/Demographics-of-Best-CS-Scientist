@@ -31,14 +31,15 @@ git clone https://github.com/samiulabir201/Demographics-of-Best-CS-Scientist
 2. Initialize and activate the virtual environment
 
 ```bash
-virtualenv --no-site-packages venv
+pip install venv
+virtualenv venv
 .\venv\Scripts\activate
 ```
 
 3. Install dependencies
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 4. Download chrome driver from https://chromedriver.chromium.org/downloads
