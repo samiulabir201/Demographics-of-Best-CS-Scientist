@@ -21,6 +21,6 @@ virtualenv --no-site-packages venv
 pip install -r requirement.txt
 ```
 
-4. Download crhome driver from https://chromedriver.chromium.org/downloads
+4. Download chrome driver from https://chromedriver.chromium.org/downloads
    
 Tableau Public view: https://public.tableau.com/app/profile/samiul.islam6711/viz/DemographicsofBestCSScientist/Dashboard1
