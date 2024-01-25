@@ -25,7 +25,7 @@ def get_scholar_details(row):
 
 
 def main():
-    webdriver_path = parser.chromedriver_path
+    webdriver_path = args.chromedriver_path
     scholar_data = []
 
     for page_id in range(1,11): 
