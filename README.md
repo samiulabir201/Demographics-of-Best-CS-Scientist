@@ -31,7 +31,7 @@ git clone https://github.com/samiulabir201/Demographics-of-Best-CS-Scientist
 2. Initialize and activate the virtual environment
 
 ```bash
-pip install venv
+pip install virtualenv
 virtualenv venv
 .\venv\Scripts\activate
 ```
