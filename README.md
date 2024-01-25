@@ -39,7 +39,7 @@ virtualenv venv
 3. Install dependencies
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 4. Download chrome driver from https://chromedriver.chromium.org/downloads
