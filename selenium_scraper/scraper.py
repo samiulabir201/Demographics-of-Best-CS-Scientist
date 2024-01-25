@@ -5,7 +5,7 @@ import pandas as pd
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--chromedriver_path', type=str, help = "Check where the Chromedriver is in your pc and share the path")
-args = parser.parse_args
+args = parser.parse_args()
 
 columns = ["World Rank", "National Rank", "Name", "Image URLs", "Affiliation", "Country", "H-Index", "Citations", "#DBLP"]
 
@@ -29,7 +29,7 @@ def main():
     scholar_data = []
 
     for page_id in range(1,11): 
-        driver = webdriver.Chrome(webdriver_path)
+        driver = webdriver.Chrome()
         url = f"https://research.com/scientists-rankings/computer-science?page={page_id}"
         driver.get(url)
         rankings = driver.find_element(By.ID, 'rankingItems')
